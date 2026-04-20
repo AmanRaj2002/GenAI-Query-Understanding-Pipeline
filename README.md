@@ -1,6 +1,9 @@
 # Enterprise Query Understanding Pipeline 
 
 An end-to-end NLP pipeline for Yelp-style enterprise search, utilizing high-performance local LLMs and semantic caching.
+This code base closely follows the following blog's methodology:
+Part II: modern
+LLMs/GenAI: e.g. Yelp Search Query Understanding (https://engineeringblog.yelp.com/2025/02/search-query-understanding-with-LLMs.html)
 
 ##  Tech Stack
 * **LLM:** Llama 3.1 8B Instruct (GGUF Quantized)
