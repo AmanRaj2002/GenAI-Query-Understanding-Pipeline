@@ -1,0 +1,19 @@
+# Machine Learning Models (Too large for GitHub)
+models/*.gguf
+models/distilled_query_model/
+
+# Logs and Data
+*.log
+mlflow.db
+artifacts/
+.cache/
+
+# Redis Binaries
+redis-stack-server-*/
+
+# Python
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+venv/

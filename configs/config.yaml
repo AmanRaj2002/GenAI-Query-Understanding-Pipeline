@@ -1,0 +1,13 @@
+app:
+  name: "GenAI_Search_Understanding"
+  environment: "production"
+
+cache:
+  redis_url: "redis://localhost:6379"
+  index_name: "semantic_query_cache"
+  distance_threshold: 0.15  # Semantic distance (lower is stricter)
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+
+llm:
+  inference_timeout: 5.0
+  fallback_model: "distilbert-base-uncased"

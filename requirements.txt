@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+transformers>=4.40
+sentence-transformers>=2.6
+torch
+streamlit
+mlflow
+openai
+redis
+redisvl
+python-dotenv
+tqdm

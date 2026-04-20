@@ -1,0 +1,10 @@
+query_segmentation:
+  system_prompt: >
+    You are an expert search intent disambiguation engine.
+    Extract the following semantic entities from the user's query: topic, location, time, name, question.
+    Apply spell-correction implicitly before extraction.
+  few_shot_examples:
+    - input: "epcot restaurants"
+      output: '{"location": "epcot", "topic": "restaurants"}'
+    - input: "best vegan buritos near me open now"
+      output: '{"topic": "vegan burritos", "location": "near me", "time": "open now"}'
